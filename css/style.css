@@ -1,0 +1,120 @@
+.nav1{
+    background-color:#252c3d;
+}
+
+.d-flex input{
+    background-color: #374151;
+    border: none;
+    padding-left: 40px;
+}
+.d-flex i{
+    color: gray;
+margin-left: 10px;
+position: absolute;
+}
+
+.d-flex input:focus {
+    background: white;
+    box-shadow: none;
+}
+
+.d-flex input:focus ~ .d-flex {
+    background: white;
+}
+.d-flex:focus{
+    background: white;
+}
+/* hero */
+
+.hero{
+    background-color: #0f172a;
+    width: 100%;
+    min-height: 600px;
+}
+.container,.container>.row{
+ height: 100%;   
+}
+
+ .col .content h3{
+font-size: 54px;
+font-weight: bold;
+}
+.col .content p{
+    font-size: 21px;
+}
+
+.log{
+    background: #4338CA;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+    display:none;
+margin-top:  10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.col .content button ,#cart{
+    background: #4338CA;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 5px;
+}
+.overlay{
+    position: absolute; 
+ height: 100%;
+    background: rgb(220, 220, 220);
+    background: rgba(255, 255, 255, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;  
+}
+.overlay1{
+    position: absolute; 
+ height: 80%;
+    background: rgb(220, 220, 220);
+    background: rgba(255, 255, 255, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;  
+}
+#card:hover .overlay{
+    opacity: 0.8;
+}
+.card:hover .overlay1{
+    opacity: 0.8;
+}
+.checked {
+    color: #4338CA;
+  }
+  #addtocart {
+    background-color: #e5e5e5;
+    color: black;
+    border: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#addtocart:hover{
+    background-color: #cacaca;
+    
+}
+footer{
+    background: #1F2937;
+    color: white;
+}
+#check{
+    background-color: #4338CA;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.4s;
+}
